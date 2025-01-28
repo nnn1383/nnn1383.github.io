@@ -9,17 +9,16 @@ header {
     height: auto;
     background-color: white;
     -webkit-font-smoothing: antialiased;
-    border: 2px solid #943528;
+    border: 2px solid #1c2e4a;
   } 
   .header a {
     float: left;
-    color: #943528;
+    color: #1c2e4a;
     text-align: center;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
     line-height: 40px;
-    border-radius: 4px;
   }
   .header a.logo {
     font-size: 25px;
@@ -27,18 +26,19 @@ header {
   }
   .header a:hover {
     font-weight: 680;
-    background-color: #943528e9;
+    background-color: #1e2f4bc7;
     color: white;
+    transition-duration: 600ms;
   }
   .header a.active {
     font-weight: 180;
     background-color: white;
-    color: #943528;
+    color: #1c2e4a;
   }
   .headerRight {
     font-family: CircularStd, sans-serif;
     font-weight: 680;
-    color: #943528;
+    color: #1c2e4a;
     float: right;
   }
   .header a.invisible {
@@ -56,8 +56,6 @@ header {
     }
   }
 
-
-
   body {
     position: relative;
     color: black;
@@ -67,15 +65,87 @@ header {
 
   h1 {
     font-family: CircularStd, sans-serif;
-    font-size: 26;
+    font-size: 30;
     font-weight: 900;
   }
 
   main {
-    margin-top: 100px; 
-    margin-left: 35px;
-    padding: 20px;
     font-family: CircularStd, sans-serif;
   }
 
 
+  .container-introduction {
+    padding-top: 250px;
+    padding-left: 150px;
+    width: 650px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-width: 650px;
+    column-gap: 150px;
+
+  }
+
+  .introduction {
+    padding-left: 50px;
+    padding-bottom: 80px;
+    padding-right: 30px;
+    width: 650px;
+  }
+
+  .nishi-idpic {
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid #1c2e4a;
+  }
+
+  @media screen and (max-width: 500px) {
+    .nishi-idpic {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .introduction {
+      float: none;
+    }
+  }
+
+
+  .intro-title {
+    font-size: 50px;
+    font-family: CircularStd, sans-serif;
+    font-weight: 680;
+    color: #1c2e4a;
+  }
+
+  .intro-para {
+    font-size: 22px;
+    font-family: CircularStd, sans-serif;
+    font-weight: 690;
+    color: #1c2e4a;
+  }
+
+  .intro-socials {
+    float: left;
+    margin-right: 1cm;
+  }
+
+  .linkedin-pic:hover {
+    opacity: 60%;
+  }
+
+  .github-pic {
+    padding-left: 6px;
+  }
+
+  .github-pic:hover {
+    opacity: 60%;
+  }
+
+  .mail-pic {
+    padding-left: 6px;
+  }
+
+  .mail-pic:hover {
+    opacity: 60%;
+  }
