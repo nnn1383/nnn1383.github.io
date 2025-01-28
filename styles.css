@@ -60,7 +60,9 @@ header {
     position: relative;
     color: black;
     margin: 0;
-
+    background-image: url('images/portugal.JPG');
+    background-size:cover;
+    background-repeat: no-repeat;
   }
 
   h1 {
@@ -71,6 +73,7 @@ header {
 
   main {
     font-family: CircularStd, sans-serif;
+    
   }
 
 
@@ -88,9 +91,10 @@ header {
 
   .introduction {
     padding-left: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 45px;
     padding-right: 30px;
     width: 650px;
+    background-color: rgba(255, 255, 255, 0.724);
   }
 
   .nishi-idpic {
