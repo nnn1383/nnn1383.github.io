@@ -255,7 +255,7 @@ header {
   }
 
   .about-header {
-    margin-top: 3em;
+    margin-top: 2.5em;
   }
 
   .nishi-aboutme {
@@ -299,7 +299,7 @@ header {
   /* RESUME SECTION */
 
   .resume-header {
-    margin-top: 3em;
+    margin-top: 2.5em;
     margin-bottom: 1em;
   }
 
@@ -320,3 +320,70 @@ header {
     font-weight: 500;
   }
 
+  /* CONTACT SECTION */
+
+  .contact-header {
+    margin-top: 2.5em;
+    margin-bottom: 0.2em;
+  }
+
+  .love-to-connect {
+    text-align: center;
+    font: 2em 'Euclid', system-ui, sans-serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: -0.01em;
+  }
+
+  .know-more-about-you {
+    text-align: center;
+    font: 1.2em 'Euclid', system-ui, sans-serif;
+    font-weight: 700;
+    margin-bottom: 45px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+    font: 14px 'Euclid', system-ui, sans-serif;
+    font-weight: 400;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #1c2e4a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font: 17px 'Euclid', system-ui, sans-serif;
+    font-weight: 700;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #485a77;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container-contact {
+    border-radius: 5px;
+    background-color: #e8edf6;
+    padding: 20px;
+    margin-left: 12em;
+    margin-right: 12em;
+  }
+
+  @media only screen and (max-width : 900px) {
+    .container-contact {
+      margin-left: 5em;
+      margin-right: 5em;
+      }
+    }
