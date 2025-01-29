@@ -35,7 +35,7 @@ header {
     font-weight: bold;
   }
   .header a:hover {
-    font-weight: 680;
+    font-weight: 700;
     background-color: #1e2f4bc7;
     color: white;
     transition-duration: 600ms;
@@ -46,8 +46,8 @@ header {
     color: #1c2e4a;
   }
   .headerRight {
-    font-family: CircularStd, sans-serif;
-    font-weight: 680;
+    font-family: 'CircularStd', sans-serif;
+    font-weight: 700;
     color: #1c2e4a;
     float: right;
   }
@@ -67,14 +67,14 @@ header {
   }
 
   h1 {
-    font-family: CircularStd, sans-serif;
+    font-family: "CircularStd", sans-serif;
     font-weight: 900;
   }
 
   main {
     width: 100%;
     height: 100%;
-    font-family: CircularStd, sans-serif;
+    font-family: 'CircularStd', sans-serif;
   }
 
 
@@ -210,13 +210,13 @@ header {
 
 
   .intro-title {
-    font-family: CircularStd, sans-serif;
+    font-family: 'CircularStd', sans-serif;
     font-weight: 680;
     color: #1c2e4a;
   }
 
   .intro-para {
-    font-family: CircularStd, sans-serif;
+    font-family: 'CircularStd', sans-serif;
     font-weight: 690;
     color: #1c2e4a;
   }
@@ -244,4 +244,49 @@ header {
 
   .mail-pic:hover {
     opacity: 60%;
+  }
+
+  /* ABOUT ME SECTION */
+
+  h3 {
+    text-align: center;
+    font: 4em 'Euclid', system-ui, sans-serif;
+    font-weight: 700;
+  }
+
+  .nishi-aboutme {
+    width: 150px;
+    height: 150px;
+    border-radius: 90%;
+    border: 1px solid black;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+  }
+
+  .aboutme-para {
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    text-align: center;
+    font: 2em 'Euclid', system-ui, sans-serif;
+    font-weight: 350;
+  }
+
+  .hobbies-para {
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    font: 2em 'Euclid', system-ui, sans-serif;
+    font-weight: 350;
+  }
+
+  .hobbies {
+    font: 2em 'Euclid', system-ui, sans-serif;
+    font-weight: 350;
+    margin-left: 5em;
+    margin-bottom: 3em;
   }
