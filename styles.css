@@ -343,7 +343,6 @@ header {
   }
 
   input[type=text], select, textarea {
-    width: 100%; 
     padding: 12px; 
     border: 1px solid #ccc;
     border-radius: 4px; 
@@ -366,12 +365,24 @@ header {
     font: 17px 'Euclid', system-ui, sans-serif;
     font-weight: 700;
   }
+
+  .name {
+    width: 40%;
+  }
+
+  .subject-line {
+    width:100%;
+  }
+
+  .message {
+    width:100%;
+  }
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: #485a77;
   }
-  
+ 
   /* Add a background color and some padding around the form */
   .container-contact {
     border-radius: 5px;
@@ -379,11 +390,15 @@ header {
     padding: 20px;
     margin-left: 12em;
     margin-right: 12em;
+    font: 15px 'Euclid', system-ui, sans-serif;
+    font-weight: 200;
   }
 
   @media only screen and (max-width : 900px) {
     .container-contact {
       margin-left: 5em;
       margin-right: 5em;
+      font: 15px 'Euclid', system-ui, sans-serif;
+      font-weight: 300;
       }
     }

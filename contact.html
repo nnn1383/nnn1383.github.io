@@ -28,16 +28,19 @@
     <p class="know-more-about-you">let me get to know more about you.</p>
 
     <div class="container-contact">
-        <form action="mailto:$nishipatel09@yahoo.com?subject=$subject-line &message= $subject" name="name">
+        <form target="_blank" action="mailto:$nishipatel09@yahoo.com?subject=$subject-line &message=$subject" name="name">
             
           <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name..">
-      
+          <br>
+          <input type="text" class="name" id="name" name="name" placeholder="Your name..">
+          <br>
           <label for="subject-line">Subject Line</label>
-          <input type="text" id="subject-line" name="name" placeholder="Subject line..">
-      
+          <br>
+          <input type="text" class="subject-line" id="subject-line" name="name" placeholder="Subject line..">
+          <br>
           <label for="subject">Email Message</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <br>
+          <textarea id="subject" class="message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       
           <input type="submit" value="Submit">
         </form>
