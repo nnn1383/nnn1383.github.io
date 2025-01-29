@@ -3,7 +3,7 @@
     width: 100%;
     height:100%;
     margin: 0px;
-    background-image: url(images/portugal.JPG);
+    background-image: url(images/prague.jpg);
     background-repeat: no-repeat;
     overflow-x: hidden;
     padding: 0px;
@@ -82,13 +82,14 @@ header {
   @media only screen and (max-width : 2000px) {
     .container-introduction {
       padding-top: 250px;
-      padding-left: 170px;
+      padding-left: 10vw;
+      padding-right: 10vw;
       width: 650px;
       display: grid;
       align-items: center;
       grid-template-columns: 1fr 1fr;
       column-width: 650px;
-      column-gap: 175px;
+      column-gap: 10vw;
     }
     .introduction {
       padding-left: 50px;
@@ -109,16 +110,17 @@ header {
     }
   }
 
-  @media only screen and (max-width : 1550px) {
+  @media only screen and (max-width : 1500px) {
     .container-introduction {
-      padding-left: 150px;
-      column-gap: 150px;
+      padding-left: 10vw;
+      padding-right: 10vw;
+      column-gap: 5vw;
     }
     .introduction {
       width: 500px;
     }
     .nishi-idpic {
-      width: 420px;
+      width: 400px;
     }
     .intro-title {
       font-size: 55px;
@@ -128,23 +130,81 @@ header {
     }
   }
 
-  @media only screen and (max-width : 1350px) {
+  @media only screen and (max-width : 1150px) {
     .container-introduction {
-      padding-top: 150px;
-      padding-left: 90px;
+      padding-top: 120px;
+      margin-left: 85px;
       column-gap: 90px;
+      float: none;
+      display: block;
     }
     .introduction {
-      width: 28vw;
+      width: 600px;
+      padding-top: 1px;
+      padding-bottom: 60px;
+    }
+    .nishi-idpic {
+      width: 300px;
+      margin-top: 20px;
+      margin-left: 180px;
+    }
+    .intro-title {
+      font-size: 30;
+    }
+    .intro-para {
+      font-size: 30;
+    }
+  }
+
+  @media only screen and (max-width : 1000px) {
+    .container-introduction {
+      padding-top: 120px;
+      margin-left: 10vw;
+      margin-right: 15vw;
+      float: none;
+      display: block;
+    }
+    .introduction {
+      width: 530px;
+      padding-top: 1px;
+      padding-bottom: 60px;
     }
     .nishi-idpic {
       width: 30vw;
+      margin-top: 20px;
+      margin-left: 180px;
     }
     .intro-title {
-      font-size: 6.9vw;
+      font-size: 6vw;
     }
     .intro-para {
-      font-size: 3vw;
+      font-size: 2.2vw;
+    }
+  }
+
+  @media only screen and (max-width : 760px) {
+    .container-introduction {
+      padding-top: 120px;
+      margin-left: 3vw;
+      margin-right: 3vw;
+      float: none;
+      display: block;
+    }
+    .introduction {
+      width: 480px;
+      padding-top: 1px;
+      padding-bottom: 60px;
+    }
+    .nishi-idpic {
+      width: 260px;
+      margin-top: 20px;
+      margin-left: 150px;
+    }
+    .intro-title {
+      font-size: 44px;
+    }
+    .intro-para {
+      font-size: 20px;
     }
   }
 
