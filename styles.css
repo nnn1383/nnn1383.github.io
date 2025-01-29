@@ -290,3 +290,23 @@ header {
     margin-left: 5em;
     margin-bottom: 3em;
   }
+
+
+  /* RESUME SECTION */
+
+  .pdf {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto ;
+    align-self: center;
+  }
+
+  .resume-linkedin {
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 2em;
+    text-align: center;
+    font: 1em 'Euclid', system-ui, sans-serif;
+    font-weight: 500;
+  }
