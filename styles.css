@@ -159,13 +159,14 @@ header {
   @media only screen and (max-width : 1000px) {
     .container-introduction {
       padding-top: 120px;
-      margin-left: 10vw;
-      margin-right: 15vw;
+      margin-left: auto;
+      margin-right: auto;
       float: none;
       display: block;
+      align-items: center;
     }
     .introduction {
-      width: 530px;
+      width: auto;
       padding-top: 1px;
       padding-bottom: 60px;
     }
@@ -185,10 +186,11 @@ header {
   @media only screen and (max-width : 760px) {
     .container-introduction {
       padding-top: 120px;
-      margin-left: 3vw;
-      margin-right: 3vw;
+      margin-left: auto;
+      margin-right: auto;
       float: none;
       display: block;
+      align-items: center;
     }
     .introduction {
       width: 480px;
@@ -260,7 +262,7 @@ header {
 
   .nishi-aboutme {
     width: 150px;
-    height: 150px;
+    height: 170px;
     border-radius: 90%;
     border: 1px solid black;
     overflow: hidden;
