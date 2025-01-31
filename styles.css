@@ -56,11 +56,6 @@ header {
   }
 
   @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
     .header-right {
       float: none;
     }
@@ -257,7 +252,7 @@ header {
   }
 
   .about-header {
-    margin-top: 2.5em;
+    margin-top: 2em;
   }
 
   .nishi-aboutme {
@@ -301,13 +296,13 @@ header {
   /*-------------------------- RESUME SECTION --------------------------*/
 
   .resume-header {
-    margin-top: 2.5em;
+    margin-top: 2em;
     margin-bottom: 1em;
   }
 
   .pdf {
     display: block;
-    width:75%;
+    width:90%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
