@@ -35,24 +35,28 @@ header {
     font-weight: bold;
   }
   .header a:hover {
-    font-weight: 700;
+    font-weight: 200;
     background-color: #1e2f4bc7;
     color: white;
     transition-duration: 600ms;
   }
   .header a.active {
-    font-weight: 180;
+    font-family: 'Outfit';
+    font-weight: 600;
     background-color: white;
     color: #1c2e4a;
   }
   .headerRight {
-    font-family: 'CircularStd', sans-serif;
-    font-weight: 700;
+    font-family: 'Outfit';
+    font-weight: 200;
     color: #1c2e4a;
     float: right;
   }
   .header a.invisible {
     color: white;
+    font-family: 'Outfit';
+    font-weight: 600;
+    background-color: white;
   }
 
  /* @media screen and (max-width: 500px) {
