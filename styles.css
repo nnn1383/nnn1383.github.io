@@ -59,16 +59,41 @@ header {
     background-color: white;
   }
 
- /* @media screen and (max-width: 500px) {
+ @media screen and (max-width: 500px) {
     .header-right {
       float: none;
     }
-  } */
+  }
 
   h1 {
+    width: 370px;
     font-family: "CircularStd", sans-serif;
     font-weight: 900;
+    box-sizing: border-box;
+    outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 5px solid black;
+    animation: typewriter 2.2s steps(16,end), blink 900ms steps(16) infinite;
   }
+
+  @keyframes typewriter {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 68%;
+    }
+}
+
+@keyframes blink {
+  from {
+      border-color: black;
+  }
+  to {
+      border-color: transparent;
+  }
+}
 
   main {
     width: 100%;
