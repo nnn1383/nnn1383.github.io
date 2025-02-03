@@ -66,7 +66,7 @@
   }
 
   h1 {
-    width: 370px;
+    width: 410px;
     font-family: "CircularStd", sans-serif;
     font-weight: 900;
     box-sizing: border-box;
@@ -74,7 +74,7 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 5px solid black;
-    animation: typewriter 2.2s steps(16,end), blink 900ms steps(16) infinite;
+    animation: typewriter 2.4s steps(18,end), blink 900ms steps(18) infinite;
   }
 
   @keyframes typewriter {
@@ -82,7 +82,7 @@
         width: 0%;
     }
     to {
-        width: 75%;
+        width: 65%;
     }
 }
 
