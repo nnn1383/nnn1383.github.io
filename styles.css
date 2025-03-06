@@ -153,6 +153,27 @@
     .intro-para {
       font-size: 22px;
     }
+    /*typewriter*/
+    h1 {
+      width: 380px;
+      font-family: "CircularStd", sans-serif;
+      font-weight: 900;
+      box-sizing: border-box;
+      outline: none;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 5px solid black;
+      animation: typewriter 2.4s steps(18,end), blink 900ms steps(18) infinite;
+    }
+  
+    @keyframes typewriter {
+      from {
+          width: 0%;
+      }
+      to {
+          width: 75%;
+      }
+  }
   }
 
   @media only screen and (max-width : 1150px) {
@@ -179,6 +200,28 @@
     .intro-para {
       font-size: 30;
     }
+        /*typewriter*/
+        h1 {
+          width: 380px;
+          font-family: "CircularStd", sans-serif;
+          font-weight: 900;
+          box-sizing: border-box;
+          outline: none;
+          white-space: nowrap;
+          overflow: hidden;
+          border-right: 5px solid black;
+          animation: typewriter 2.4s steps(18,end), blink 900ms steps(18) infinite;
+        }
+
+        @keyframes typewriter {
+          from {
+              width: 0%;
+          }
+          to {
+              width: 68%;
+          }
+      }   
+
   }
 
   @media only screen and (max-width : 1000px) {
@@ -206,6 +249,26 @@
     .intro-para {
       font-size: 2.2vw;
     }
+      /*typewriter*/
+    h1 {
+        width: 380px;
+        font-family: "CircularStd", sans-serif;
+        font-weight: 900;
+        box-sizing: border-box;
+        outline: none;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 5px solid black;
+        animation: typewriter 2.4s steps(18,end), blink 900ms steps(18) infinite;
+    }
+    @keyframes typewriter {
+      from {
+          width: 0%;
+      }
+      to {
+          width: 65%;
+      }
+  }
   }
 
   @media only screen and (max-width : 760px) {
@@ -232,6 +295,27 @@
     }
     .intro-para {
       font-size: 20px;
+    }
+        /*typewriter*/
+    h1 {
+        width: 305px;
+        font-family: "CircularStd", sans-serif;
+        font-weight: 900;
+        box-sizing: border-box;
+        outline: none;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 5px solid black;
+        animation: typewriter 2.4s steps(18,end), blink 900ms steps(18) infinite;
+      }
+
+      @keyframes typewriter {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 65%;
+        }
     }
   }
 
