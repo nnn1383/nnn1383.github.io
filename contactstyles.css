@@ -3,7 +3,7 @@ html, body {
     width: 100%;
     height:100%;
     margin: 0px;
-    background-image: linear-gradient(to bottom right, rgb(185, 203, 209), #aaddff);
+    background-color: rgb(219, 231, 241);
     /* background-image: url(images/prague.jpg);
      background-repeat: no-repeat;*/
     overflow-x: hidden;
@@ -42,20 +42,20 @@ html, body {
     transition-duration: 600ms;
   }
   .header a.active {
-    font-family: 'Outfit';
+    font-family: "Playfair Display";
     font-weight: 600;
     background-color: white;
     color: #1c2e4a;
   }
   .headerRight {
-    font-family: 'Outfit';
+    font-family: "Playfair Display";
     font-weight: 200;
     color: #1c2e4a;
     float: right;
   }
   .header a.invisible {
     color: white;
-    font-family: 'Outfit';
+    font-family: "Playfair Display";
     font-weight: 600;
     background-color: white;
   }
@@ -67,20 +67,20 @@ html, body {
   }
 
   h1 {
-    font-family: "CircularStd", sans-serif;
+    font-family: "Playfair Display";
     font-weight: 900;
   }
 
   h3 {
     text-align: center;
-    font: 4em 'Euclid', system-ui, sans-serif;
+    font: 4em "Playfair Display";
     font-weight: 700;
   }
 
   main {
     width: 100%;
     height: 100%;
-    font-family: 'CircularStd', sans-serif;
+    font-family: "Playfair Display";
   }
 
   .contact-header {
@@ -90,7 +90,7 @@ html, body {
 
   .love-to-connect {
     text-align: center;
-    font: 2em 'Euclid', system-ui, sans-serif;
+    font: 2em "Playfair Display";
     font-weight: 700;
     margin-bottom: 45px;
     margin-top: -0.01em;
@@ -104,7 +104,7 @@ html, body {
     margin-top: 6px;
     margin-bottom: 16px; 
     resize: vertical;
-    font: 15px 'Outfit';
+    font: 15px "Playfair Display";
     font-weight: 500;
   }
 
@@ -118,7 +118,7 @@ html, body {
     margin-top: 6px;
     margin-bottom: 16px; 
     resize: vertical;
-    font: 15px 'Outfit';
+    font: 15px "Playfair Display";
     font-weight: 500;
   }
   
@@ -130,7 +130,7 @@ html, body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font: 17px 'Outfit';
+    font: 17px "Playfair Display";
     font-weight: 700;
   }
 
@@ -187,7 +187,7 @@ html, body {
     border-radius: 5px;
     background-color: #e8edf6;
     padding: 20px;
-    font: 16px 'Outfit';
+    font: 16px "Playfair Display";
     font-weight: 500;
     width: 600px;
     place-items: left;
