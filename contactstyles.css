@@ -92,7 +92,7 @@ html, body {
     text-align: center;
     font: 2em "Playfair Display";
     font-weight: 700;
-    margin-bottom: 45px;
+    margin-bottom: 15px;
     margin-top: -0.01em;
   }
 
@@ -173,35 +173,35 @@ html, body {
   }
 
   .contact-me-all-container {
-    display: block;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    column-width: 600px;
-    column-gap: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex; 
+    justify-content: center; 
+    gap: 150px; 
+    margin: 0 auto;
+    width: 100%;
+    padding: 40px 0;
   }
   
-  /* Add a background color and some padding around the form */
   .container-contact {
     border-radius: 5px;
     background-color: #e8edf6;
     padding: 20px;
-    font: 16px "Playfair Display";
+    font: 16px "Playfair Display", serif;
     font-weight: 500;
     width: 600px;
-    place-items: left;
-    margin-left: auto;
-    margin-right: auto;
     border: 1px solid #1c2e4a;
-    align-items: center;
+    box-sizing: border-box;
   }
-
+  
   .contact-right {
     width: 525px;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .buisness-card {
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
 
