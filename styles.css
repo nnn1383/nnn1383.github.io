@@ -384,7 +384,7 @@
     margin-top: 2em;
     margin-bottom: 4em;
     text-align: center;
-    font: 2em 'Euclid', system-ui, sans-serif;
+    font: 2em "Playfair Display";
     font-weight: 350;
   }
 
@@ -394,12 +394,12 @@
     margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;
-    font: 2em 'Euclid', system-ui, sans-serif;
+    font: 2em "Playfair Display";
     font-weight: 350;
   }
 
   .hobbies {
-    font: 2em 'Euclid', system-ui, sans-serif;
+    font: 2em "Playfair Display";
     font-weight: 300;
     margin-bottom: 3em;
     text-align: center;
@@ -427,6 +427,6 @@
     margin-right: 6em;
     margin-top: 2em;
     text-align: center;
-    font: 1em 'Euclid', system-ui, sans-serif;
+    font: 1em "Playfair Display", system-ui, sans-serif;
     font-weight: 500;
   }
